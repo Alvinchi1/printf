@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+/**
+ *Main - main entry into code
+ *function - code to run as school's grading system
+ *
+ *Return - return (0)
+ */
+
+int main (void)
+{
+	int n;
+
+	//the code we are trying to create here is to print whatever is given at grade level//
+	printf("n is %i\n", n);
+
+	if (n > 100)
+	{
+		printf(" excellent\n");
+	}
+	else if (n => 80)
+	{
+		printf("A");
+	}
+	else if (n => 60)
+	{
+		printf("B");
+	}
+	else if (n => 40)
+	{
+		printf("D");
+	}
+	else
+	{
+		printf("F");
+	}
+		return (0);
+
+	// at this point , i have confirmed to myself that i can code whatever i want and in whatever programming language//
